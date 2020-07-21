@@ -39,11 +39,10 @@ seonhoe = Account(3456,0)
 yeseul = Account(4567,0)
 eunbi = Account(5678,0)
 
+jisu.pwConfirm(int(input("비밀번호를 입력하세요.: "))) #안
 jisu.deposit(30000) #성공!
 jisu.withdraw(32000) #성공!
 jisu.transfer(input("누구에게 송금하시겠습니까?: "),3000) #성공!
-#jisu.pwConfirm(input("비밀번호를 입력하세요.: ")) #안됨... 도대체 왜??ㅠㅠ
-
 #기록을 계속 남겨서 누적되게 하는데 내 눈에는 안 보이는 방법은 없겠지??
 #비밀번호 입력해서 성공해야 다음으로 넘어가게 하고싶은데 딕셔너리 만들어서??
 
